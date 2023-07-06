@@ -1,0 +1,5 @@
+in ejs use <%= kindofday %>
+
+for using scriplet tag ------->> it is used for control flow statements like if else, loops etc, not used across the html lines
+
+must be used acroosss every line of js

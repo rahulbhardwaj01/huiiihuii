@@ -1,0 +1,17 @@
+<!-- just like html write html code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+</head>
+<body>
+    <!-- <h1>it's a <%= kindofday %></h1> -->
+<%    if(kindofday==="Saturday"|| kindofday==="Sunday"){ %>
+        <h1 style="color: purple;"><%= kindofday %> to do list</h1>
+<%    }else{ %>
+        <h1 style="color: blue;"><%= kindofday %>to do</h1>
+<%    }    %>
+</body>
+</html>
